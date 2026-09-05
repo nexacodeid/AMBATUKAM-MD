@@ -35,6 +35,24 @@ The project uses a plugin-first architecture with dynamic discovery, hot reload,
 
 ---
 
+## 🌸 Kawaii Anime Gallery
+
+<div align="center">
+
+<img src="https://media1.tenor.com/images/f821cf181eb277c84d461183d713be64/tenor.gif?itemid=8731036" width="210" alt="Kawaii anime girl GIF" />
+&nbsp;&nbsp;
+<img src="https://media1.tenor.com/images/b9bac6f190cabf3574165538e277c33d/tenor.gif?itemid=12005681" width="210" alt="Dancing anime girl GIF" />
+&nbsp;&nbsp;
+<img src="https://media.tenor.com/zf41nXpMrjAAAAAe/anime-talk.png" width="210" alt="Pink-haired kawaii anime girl" />
+
+<br><br>
+
+`♡ kawaii` · `♡ anime` · `♡ coding` · `♡ coffee`
+
+</div>
+
+---
+
 ## ✦ Features
 
 <table>
@@ -324,17 +342,16 @@ The `sessions/` directory contains authentication state and should be handled ca
 
 ---
 
-## 🐇 Cute Corner
+## 🎀 Anime Showcase
 
 <div align="center">
 
-<img src="https://i.pinimg.com/originals/6e/5f/2c/6e5f2c1b2d7a9f7c8e9d6b2a1f5e3c4d.gif" width="180" alt="Kawaii anime gif" />
+<img src="https://media.tenor.com/zf41nXpMrjAAAAAe/anime-talk.png" width="150" alt="Pink-haired anime girl" />
 
-<br>
+**かわいいコード、ちゃんと動く。**
 
-### 「 かわいいコード、ちゃんと動く。 」
-
-`code` · `coffee` · `anime` · `repeat`
+<img src="https://media1.tenor.com/images/b9bac6f190cabf3574165538e277c33d/tenor.gif?itemid=12005681" width="170" alt="Anime dance GIF" />
+<img src="https://media1.tenor.com/images/f821cf181eb277c84d461183d713be64/tenor.gif?itemid=8731036" width="170" alt="Kawaii anime GIF" />
 
 <br><br>
 
