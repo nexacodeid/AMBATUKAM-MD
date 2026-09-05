@@ -1,228 +1,253 @@
 <div align="center">
 
-# AMBATUKAM-MD
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,50:EC4899,100:06B6D4&height=230&section=header&text=AMBATUKAM-MD&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Kawaii%20WhatsApp%20Multi-Device%20Bot&descAlignY=60&descSize=18" width="100%" />
 
-### Modern WhatsApp Multi-Device Bot built with Node.js & Baileys
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=2800&pause=900&color=C084FC&center=true&vCenter=true&width=650&lines=Modern+WhatsApp+Multi-Device+Bot;Plugin-Based+%E2%80%A2+Hot+Reload+%E2%80%A2+SQLite+Session;Built+with+Node.js+%2B+Baileys;Cute+UI%2C+Serious+Code." alt="Typing SVG" />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&section=header&text=AMBATUKAM-MD&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%" />
+<br>
 
-<p>
-  <b>Plugin-based</b> · <b>Multi-Device</b> · <b>SQLite Session</b> · <b>Hot Reload</b>
-</p>
+<img src="https://img.shields.io/badge/Node.js-ESM-8B5CF6?style=for-the-badge&logo=node.js&logoColor=white" />
+<img src="https://img.shields.io/badge/Baileys-WhatsApp-EC4899?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-ES2026-06B6D4?style=for-the-badge&logo=javascript&logoColor=white" />
+<img src="https://img.shields.io/badge/License-ISC-A78BFA?style=for-the-badge" />
 
-<p>
-  <img src="https://img.shields.io/badge/Node.js-ESM-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/WhatsApp-Baileys-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-ES2026-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/License-ISC-7C3AED?style=for-the-badge" />
-</p>
+<br><br>
 
-<p>
-  <a href="#-features">Features</a> ·
-  <a href="#-installation">Installation</a> ·
-  <a href="#-project-structure">Structure</a> ·
-  <a href="#-development">Development</a>
-</p>
+> **A cute-looking bot with a surprisingly serious runtime.**
+>
+> *Because apparently software can have both architecture and sparkles.*
 
 </div>
 
 ---
 
-## About
+## ୨୧ About
 
-**AMBATUKAM-MD** is a JavaScript-based WhatsApp Multi-Device bot designed around a modular plugin architecture. The project uses **Baileys** for the WhatsApp connection layer and separates the runtime, handler, database, session management, and plugins into dedicated modules.
+**AMBATUKAM-MD** is a modular WhatsApp Multi-Device bot built with **Node.js**, **JavaScript ESM**, and **Baileys**.
 
-The project is configured as an **ES Module** application and can be started directly with Node.js.
+The project uses a plugin-first architecture with dynamic discovery, hot reload, SQLite-backed authentication, JSON data storage, worker-based execution, and event-driven WhatsApp handling.
 
-> This README describes the repository structure and capabilities visible in the source. No imaginary feature list invented by an AI was harmed in the making of this documentation.
+<div align="center">
+
+### ૮ ˶ᵔ ᵕ ᵔ˶ ა  **Kawaii on the outside. Modular on the inside.**
+
+</div>
 
 ---
 
-## Features
+## ✦ Features
 
-### Core
+<table>
+<tr>
+<td width="50%">
 
-- WhatsApp Multi-Device connection through Baileys
-- Plugin-based command architecture
-- Automatic plugin discovery from `plugins/`
-- Plugin hot reload when JavaScript plugin files change
-- Worker-based application launcher
+### ♡ Core Runtime
+
+- Multi-Device WhatsApp connection
+- Baileys socket integration
+- Worker-based launcher
 - Automatic worker restart handling
-- Runtime command input through the terminal
-- SQLite-backed authentication/session state
-- JSON database storage
-- Automatic database save scheduling
-- Group participant event handling
-- Message event handling
-- Group update handling
-- Delete-message event handling
+- Keep-alive & retry configuration
+- Full history synchronization
 - High-quality link previews
-- Full history synchronization support
-- Connection retry and keep-alive configuration
 
-### Plugin Categories
+</td>
+<td width="50%">
 
-The repository currently organizes plugins into categories including:
+### ♡ Developer System
 
-| Category | Purpose |
-|---|---|
-| `ai` | AI-related commands |
-| `anime` | Anime-related commands |
-| `bypass` | Bypass utilities |
-| `command` | Command utilities |
-| `core` | Core bot functionality |
-| `downloader` | Downloader functionality |
-| `fun` | Fun commands |
-| `games` | Games |
-| `group` | Group management |
-| `info` | Information commands |
-| `internet` | Internet utilities |
-| `jadibot` | Jadibot functionality |
-| `main` | Main bot commands |
-| `maker` | Content maker utilities |
-| `owner` | Owner-level commands |
-| `rpg` | RPG functionality |
+- Modular plugin architecture
+- Recursive plugin discovery
+- Plugin hot reload
+- Dynamic ESM imports
+- SQLite session state
+- JSON database persistence
+- Terminal runtime controls
 
-Plugin names and behavior may change as development continues.
+</td>
+</tr>
+</table>
 
 ---
 
-## Tech Stack
+## 🎀 Plugin Universe
 
-| Technology | Role |
-|---|---|
-| **Node.js** | Runtime |
-| **JavaScript / ESM** | Application code |
+The bot currently organizes its plugins into a collection of dedicated modules:
+
+<div align="center">
+
+| ♡ | Category | ♡ | Category |
+|:---:|:---|:---:|:---|
+| ✦ | `ai` | ✦ | `anime` |
+| ✦ | `bypass` | ✦ | `command` |
+| ✦ | `core` | ✦ | `downloader` |
+| ✦ | `fun` | ✦ | `games` |
+| ✦ | `group` | ✦ | `info` |
+| ✦ | `internet` | ✦ | `jadibot` |
+| ✦ | `main` | ✦ | `maker` |
+| ✦ | `owner` | ✦ | `rpg` |
+
+</div>
+
+> Plugin behavior and names can evolve as the project grows.
+
+---
+
+## 🌸 Tech Stack
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=nodejs,js,sqlite,npm,git,github&theme=dark" />
+
+<br><br>
+
+| Technology | Purpose |
+|:---|:---|
+| **Node.js** | Runtime environment |
+| **JavaScript / ESM** | Application architecture |
 | **Baileys** | WhatsApp Multi-Device layer |
 | **better-sqlite3** | SQLite support |
 | **Pino** | Logging |
-| **Chalk** | Terminal output styling |
+| **Chalk** | Terminal styling |
 | **Sharp** | Image processing |
 | **Cheerio** | HTML parsing |
 | **Axios / Fetch** | HTTP requests |
 | **FFmpeg** | Media processing |
 | **QRCode** | QR utilities |
-| **Prettier** | Formatting |
-| **ESLint** | Linting |
+| **Prettier** | Code formatting |
+| **ESLint** | Code quality |
+
+</div>
 
 ---
 
-## Project Structure
+## 🐰 Architecture
+
+<div align="center">
+
+```text
+                    ╭──────────────────────╮
+                    │      index.js        │
+                    │    Process Launcher   │
+                    ╰──────────┬───────────╯
+                               │
+                               ▼
+                    ╭──────────────────────╮
+                    │      Worker Thread   │
+                    ╰──────────┬───────────╯
+                               │
+                               ▼
+                    ╭──────────────────────╮
+                    │       main.js        │
+                    │    Bot Runtime Core  │
+                    ╰──────┬─────┬─────────╯
+                           │     │
+              ┌────────────┘     └────────────┐
+              ▼                               ▼
+       ╭──────────────╮                ╭──────────────╮
+       │   Baileys    │                │   Database   │
+       │ WhatsApp MD  │                │ JSON + SQLite│
+       ╰──────┬───────╯                ╰──────────────╯
+              │
+              ▼
+       ╭──────────────╮
+       │  handler.js  │
+       │ Events/Input │
+       ╰──────┬───────╯
+              │
+              ▼
+       ╭──────────────╮
+       │   plugins/   │
+       │ Dynamic Load │
+       │  + Hot Reload│
+       ╰──────────────╯
+```
+
+</div>
+
+---
+
+## 🍥 Project Structure
 
 ```text
 AMBATUKAM-MD/
-├── assets/             # Project assets
-├── data/               # Runtime database data
-├── json/               # JSON resources
-├── lib/                # Core libraries and helpers
-├── media/              # Media resources
-├── plugins/            # Bot plugins grouped by category
-├── sessions/           # WhatsApp authentication/session data
-├── config.js           # Runtime configuration
-├── handler.js          # Message and event handling
-├── index.js            # Worker launcher / process manager
-├── main.js             # Main bot runtime
-├── package.json        # Dependencies and scripts
-├── package-lock.json   # Locked dependency tree
-├── CL8QHRYN.ttf        # Font resource
-└── raizell.ttf         # Font resource
-```
-
-### Runtime Flow
-
-```text
-index.js
-   │
-   ▼
-Worker → main.js
-   │
-   ├── config.js
-   ├── SQLite session
-   ├── Database
-   ├── Baileys socket
-   ├── handler.js
-   │      ├── messages
-   │      ├── group participants
-   │      ├── group updates
-   │      └── delete updates
-   │
-   └── plugins/
-          └── dynamic loader + hot reload
+│
+├── assets/             → Project assets
+├── data/               → Runtime database data
+├── json/               → JSON resources
+├── lib/                → Core libraries & helpers
+├── media/              → Media resources
+├── plugins/            → Bot plugin universe
+│   ├── ai/
+│   ├── anime/
+│   ├── downloader/
+│   ├── games/
+│   ├── group/
+│   ├── jadibot/
+│   ├── maker/
+│   ├── owner/
+│   └── rpg/
+├── sessions/           → WhatsApp authentication state
+├── config.js           → Runtime configuration
+├── handler.js          → Message & event handling
+├── index.js            → Worker launcher
+├── main.js             → Main runtime
+├── package.json        → Dependencies & scripts
+├── package-lock.json   → Locked dependency tree
+├── CL8QHRYN.ttf        → Font resource
+└── raizell.ttf         → Font resource
 ```
 
 ---
 
-## Installation
+## 🧸 Installation
 
-### Requirements
-
-- Node.js **20+ recommended**
-- npm
-- A working internet connection
-- A WhatsApp account for the bot session
-
-### Clone
+### 01 · Clone
 
 ```bash
 git clone https://github.com/nexacodeid/AMBATUKAM-MD.git
 cd AMBATUKAM-MD
 ```
 
-### Install dependencies
+### 02 · Install
 
 ```bash
 npm install
 ```
 
-### Start
+### 03 · Run
 
 ```bash
 npm start
 ```
 
-The project starts through `index.js`, which launches `main.js` inside a Worker.
+<div align="center">
+
+`Node.js 20+` · `npm` · `WhatsApp Account`
+
+</div>
 
 ---
 
-## Configuration
-
-Runtime configuration is handled through `config.js` and environment/runtime values used by the project.
-
-Before running the bot in production, review:
+## 💜 Runtime Controls
 
 ```text
-config.js
-sessions/
-data/
+┌──────────────────────────────────────────┐
+│  AMBATUKAM-MD :: terminal controls       │
+├──────────────────────────────────────────┤
+│  restart   → restart worker              │
+│  reset     → restart / reset worker      │
+│  exit      → terminate application       │
+└──────────────────────────────────────────┘
 ```
-
-Do **not** publish authentication/session credentials, private API keys, or other secrets to a public repository.
 
 ---
 
-## Terminal Controls
+## 🎐 Plugin Development
 
-The launcher accepts simple terminal input while running:
+Plugins are discovered recursively from `plugins/` and dynamically loaded as ES modules.
 
-```text
-restart
-reset
-exit
-```
-
-`restart` and `reset` restart the worker, while `exit` terminates the application.
-
----
-
-## Plugin Development
-
-Plugins are automatically discovered from the `plugins/` directory and nested folders.
-
-A plugin can export a function or an object exposing an `all` function. The loader records the plugin filename and rebuilds the active plugin map when plugins are loaded again.
-
-When a plugin JavaScript file changes, the runtime can automatically reload the plugin set without requiring a full manual process restart.
-
-A simplified plugin shape is:
+A simplified plugin can look like:
 
 ```js
 export default async function plugin(m, { conn, text }) {
@@ -230,19 +255,21 @@ export default async function plugin(m, { conn, text }) {
 }
 ```
 
-Use the existing plugins as the source of truth for the exact message and context APIs available in this project.
+The existing plugins remain the source of truth for the exact message context and helper APIs available in the project.
+
+When JavaScript plugin files change, the runtime can rebuild the active plugin set without requiring a full manual restart.
 
 ---
 
-## Database
+## 🌙 Data & Sessions
 
-The runtime initializes a JSON database at:
+The runtime maintains its JSON database at:
 
 ```text
 data/database.json
 ```
 
-The default data model includes areas for:
+Default data areas include:
 
 ```text
 users
@@ -257,19 +284,67 @@ jadibotOrders
 jadibotAccess
 ```
 
-Database writes are scheduled and written through a temporary file before being renamed into place, reducing the chance of leaving a partially written database file.
+### ⚠ Session Warning
+
+Never publish real WhatsApp session credentials, private API keys, or other secrets to a public repository.
+
+The `sessions/` directory contains authentication state and should be handled carefully in development and deployment.
 
 ---
 
-## Session Safety
+## 📊 GitHub Stats
 
-The repository contains a `sessions/` directory because the bot stores authentication state locally.
+<div align="center">
 
-**Never upload real session credentials to a public repository.** If session files are already tracked, remove them from Git history as appropriate and add the relevant paths to `.gitignore` before deploying the repository publicly.
+<img src="https://github-readme-stats.vercel.app/api?username=nexacodeid&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true" height="180" />
+
+<br><br>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nexacodeid&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="180" />
+
+<br><br>
+
+<img src="https://streak-stats.demolab.com?user=nexacodeid&theme=tokyonight&hide_border=true&border_radius=12" width="72%" />
+
+<br><br>
+
+<img src="https://github-profile-trophy.vercel.app/?username=nexacodeid&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1" width="92%" />
+
+</div>
 
 ---
 
-## Development Scripts
+## 📈 Activity
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=nexacodeid&repo=AMBATUKAM-MD&theme=react-dark&hide_border=true&area=true&radius=10" width="96%" />
+
+</div>
+
+---
+
+## 🐇 Cute Corner
+
+<div align="center">
+
+<img src="https://i.pinimg.com/originals/6e/5f/2c/6e5f2c1b2d7a9f7c8e9d6b2a1f5e3c4d.gif" width="180" alt="Kawaii anime gif" />
+
+<br>
+
+### 「 かわいいコード、ちゃんと動く。 」
+
+`code` · `coffee` · `anime` · `repeat`
+
+<br><br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:EC4899,50:8B5CF6,100:06B6D4&height=90&text=PLUGIN%20SYSTEM&fontSize=28&fontColor=ffffff&animation=fadeIn" width="88%" />
+
+</div>
+
+---
+
+## 🛠 Development
 
 ```bash
 npm start
@@ -277,59 +352,28 @@ npm run format
 npm run lint
 ```
 
-| Script | Action |
-|---|---|
+| Command | Action |
+|:---|:---|
 | `npm start` | Start the bot |
-| `npm run format` | Format the project with Prettier |
+| `npm run format` | Format with Prettier |
 | `npm run lint` | Run ESLint |
 
 ---
 
-## Visual Preview
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=100&section=header&text=PLUGIN%20SYSTEM&fontSize=30&fontColor=ffffff&animation=fadeIn" width="90%" />
-
-<br><br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=nexacodeid&repo=AMBATUKAM-MD&theme=react-dark&hide_border=true" width="95%" />
-
-</div>
-
----
-
-## Repository Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=nexacodeid&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nexacodeid&repo=AMBATUKAM-MD&layout=compact&theme=tokyonight&hide_border=true" height="170" />
-
-<br><br>
-
-<img src="https://streak-stats.demolab.com?user=nexacodeid&theme=tokyonight&hide_border=true" width="70%" />
-
-</div>
-
----
-
-## Contributing
-
-Contributions are welcome.
+## 🤝 Contributing
 
 1. Fork the repository.
 2. Create a feature branch.
 3. Make your changes.
 4. Run formatting and lint checks.
-5. Test the bot locally.
+5. Test locally.
 6. Open a pull request with a clear description.
 
-Keep plugins modular and avoid committing secrets, authentication sessions, generated runtime data, or unnecessary binaries.
+Keep plugins modular and never commit secrets, session credentials, generated runtime data, or unnecessary binaries.
 
 ---
 
-## Disclaimer
+## 📜 Disclaimer
 
 This project is provided for educational and development purposes. Use automation responsibly and comply with WhatsApp's terms, applicable laws, and the rights of other users.
 
@@ -337,18 +381,14 @@ The maintainers are not responsible for misuse, account restrictions, data loss,
 
 ---
 
-## License
-
-This project is released under the **ISC License** as declared in `package.json`.
-
----
-
 <div align="center">
 
-### AMBATUKAM-MD
+### ૮₍ ˶ᵔ ᵕ ᵔ˶ ₎ა  AMBATUKAM-MD
 
-Built with JavaScript, Baileys, and an unreasonable amount of plugins.
+**Built with Node.js · Baileys · Plugins · questionable amounts of coffee**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&animation=fadeIn" width="100%" />
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,50:8B5CF6,100:EC4899&height=150&section=footer&animation=fadeIn" width="100%" />
 
 </div>
