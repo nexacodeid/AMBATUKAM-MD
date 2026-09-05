@@ -1,0 +1,347 @@
+// plugins/main/menu.js
+
+import fs from 'fs'
+import moment from 'moment-timezone'
+import os from 'os'
+import { ButtonV2 } from '../../lib/messagebutton.js'
+
+const handler = async (
+  m,
+  {
+    conn
+  }
+) => {
+
+  const botName =
+    global.namebot ||
+    conn.user?.name ||
+    'WhatsApp Bot'
+
+  const uptime = clockString(
+    process.uptime() * 1000
+  )
+
+  const memoryUsage = Math.round(
+    (1 - os.freemem() / os.totalmem()) * 100
+  )
+  
+  // KIRIM AUDIO DULU SEBELUM MENU
+  const audioPath = './media/menu.mp3'
+
+  if (fs.existsSync(audioPath)) {
+    await conn.sendMessage(
+      m.chat,
+      {
+        audio: fs.readFileSync(audioPath),
+        mimetype: 'audio/mp4',
+        ptt: false
+      },
+      { quoted: m }
+    )
+  }
+  await new ButtonV2(conn)
+
+    .setBody(
+`ʜᴀɪ, ᴀᴋᴜ ᴀᴅᴀʟᴀʜ ${botName}! ⚡️
+
+ᴀᴍʙᴀᴛᴜᴋᴀᴍ, ꜱᴀɴɢ ᴘᴇᴍʙᴜʀᴜ ꜱᴜᴋɪʟɪᴀʀ. ᴋᴇʙᴇʀᴀɴɪᴀɴɴʏᴀ ᴀᴅᴀʟᴀʜ ʟᴇɢᴇɴᴅᴀ, ꜱᴇᴍᴀɴɢᴀᴛɴʏᴀ ᴛᴀᴋ ᴘᴇʀɴᴀʜ ᴘᴀᴅᴀᴍ! ⚡️
+
+📚 ᴇᴅᴜᴋᴀꜱɪ ᴘᴇʟᴀᴊᴀʀᴀɴ
+🎥 ᴍᴇɴɢᴜɴᴅᴜʜ ᴍᴇᴅɪᴀ
+🎮 ʙᴇʀᴍᴀɪɴ ɢᴀᴍᴇ
+🛡️ ᴍᴇɴᴊᴀɢᴀ ɢʀᴜᴘ
+✨ ᴅᴀɴ ᴍᴀꜱɪʜ ʙᴀɴʏᴀᴋ ʟᴀɢɪ!
+🛒 *ᴛᴇᴍᴘᴀᴛ ᴘᴀɴᴇʟ & ᴊᴀꜱᴀ ʀᴇɴᴀᴍᴇ ᴛᴇʀᴘᴇʀᴄᴀʏᴀ:*
+https://fallxd-store-alpha.vercel.app
+╭─〔 ꜱʏꜱᴛᴇᴍ ɪɴꜰᴏ 〕
+│◦ ʀᴜɴᴛɪᴍᴇ : ${uptime}
+│◦ ᴍᴇᴍᴏʀʏ : ${memoryUsage}%
+│◦ ᴘʟᴀᴛꜰᴏʀᴍ : ${os.platform()}
+│◦ ɴᴏᴅᴇᴊꜱ : ${process.version}
+╰──────────────
+*"ꜱᴇʙᴀɪᴋ ʙᴀɪᴋ ᴍᴀɴᴜꜱɪᴀ ᴀᴅᴀʟᴀʜ ʏᴀɴɢ ᴘᴀʟɪɴɢ ʙᴇʀᴍᴀɴꜰᴀᴀᴛ ʙᴀɢɪ ᴍᴀɴᴜꜱɪᴀ ʟᴀɪɴɴʏᴀ"* ✨
+`
+    )
+
+    .setFooter(
+      `${botName} - ${moment
+        .tz('Asia/Jakarta')
+        .format('YYYY')}`
+    )
+
+    .setThumbnail(
+      fs.readFileSync('./media/menu.jpg')
+    )
+
+    // QUICK BUTTON
+    .addButton(
+      '◆ ALL MENU',
+      '.allmenu'
+    )
+
+    // SINGLE SELECT
+    .addRawButton({
+      buttonText: {
+        displayText: '☰ LIST MENU'
+      },
+
+      buttonId: 'menu',
+
+      type: 1,
+
+      nativeFlowInfo: {
+        name: 'single_select',
+
+        paramsJson: JSON.stringify({
+          title: `${botName} Menu`,
+
+          sections: [
+
+            {
+              title: 'Main Features',
+
+              rows: [
+                {
+                  title: '📚 All Menu',
+                  description:
+                    'Lihat semua command bot',
+
+                  id: '.allmenu'
+                }
+              ]
+            },
+
+            {
+              title: '📂 List Menu',
+
+              rows: [
+                {
+                  title: '🤖 Ai',
+                  description:
+                    'Menampilkan menu Ai',
+
+                  id: '.listmenu ai'
+                },
+                {
+                  title: '🌸 Anime',
+                  description:
+                    'Menampilkan menu Anime',
+
+                  id: '.listmenu anime'
+                },
+                {
+                  title: '🔑 Bypass',
+                  description:
+                    'Menampilkan menu bypass',
+
+                  id: '.listmenu bypass'
+                },
+                {
+                  title: '🗄️ Database',
+                  description:
+                    'Menampilkan menu Database',
+
+                  id: '.listmenu database'
+                },
+                {
+                  title: '📥 Downloader',
+                  description:
+                    'Menampilkan menu Downloader',
+
+                  id: '.listmenu downloader'
+                },
+                {
+                  title: '🎉 Fun',
+                  description:
+                    'Menampilkan menu Fun',
+
+                  id: '.listmenu fun'
+                },
+                {
+                  title: '🎮 Game',
+                  description:
+                    'Menampilkan menu Game',
+
+                  id: '.listmenu game'
+                },
+                {
+                  title: '👥 Group',
+                  description:
+                    'Menampilkan menu Group',
+
+                  id: '.listmenu group'
+                },
+                {
+                  title: 'ℹ️ Info',
+                  description:
+                    'Menampilkan menu Info',
+
+                  id: '.listmenu info'
+                },
+                {
+                  title: '🌐 Internet',
+                  description:
+                    'Menampilkan menu Internet',
+
+                  id: '.listmenu internet'
+                },
+                {
+                  title: '🤖 Jadibot',
+                  description:
+                    'Menampilkan menu Jadibot',
+
+                  id: '.listmenu jadibot'
+                },
+                {
+                  title: '🏠 Main',
+                  description:
+                    'Menampilkan menu Main',
+
+                  id: '.listmenu main'
+                },
+                {
+                  title: '🛠️ Maker',
+                  description:
+                    'Menampilkan menu Maker',
+
+                  id: '.listmenu maker'
+                },
+                {
+                  title: '👑 Owner',
+                  description:
+                    'Menampilkan menu Owner',
+
+                  id: '.listmenu owner'
+                },
+                {
+                  title: '💎 Premium',
+                  description:
+                    'Menampilkan menu Premium',
+
+                  id: '.listmenu premium'
+                },
+                {
+                  title: '⚔️ RPG',
+                  description:
+                    'Menampilkan menu RPG',
+
+                  id: '.listmenu rpg'
+                },
+                {
+                  title: '🔍 Search',
+                  description:
+                    'Menampilkan menu Search',
+
+                  id: '.listmenu search'
+                },
+                {
+                  title: '🕵️ Stalk',
+                  description:
+                    'Menampilkan menu Stalk',
+
+                  id: '.listmenu stalk'
+                },
+                {
+                  title: '✨ Sticker',
+                  description:
+                    'Menampilkan menu Sticker',
+
+                  id: '.listmenu sticker'
+                },
+                {
+                  title: '🧰 Tools',
+                  description:
+                    'Menampilkan menu Tools',
+
+                  id: '.listmenu tools'
+                },
+                {
+                  title: '💳 Topup',
+                  description:
+                    'Menampilkan menu Topup',
+
+                  id: '.listmenu topup'
+                },
+                {
+                  title: '👤 User',
+                  description:
+                    'Menampilkan menu User',
+
+                  id: '.listmenu user'
+                },
+                {
+                  title: '📈 Xp',
+                  description:
+                    'Menampilkan menu Xp',
+
+                  id: '.listmenu xp'
+                }
+              ]
+            },
+
+            {
+              title: 'Information',
+
+              rows: [
+                {
+                  title: '👑 Owner',
+                  description:
+                    'Hubungi owner bot',
+
+                  id: '.owner'
+                },
+                {
+                  title: '💳 Donasi',
+                  description:
+                    'Support developer',
+
+                  id: '.donasi 5000'
+                },
+                {
+                  title: '🤖 Jadibot',
+                  description:
+                    'Jadibot Gratis',
+
+                  id: '.trialjb'
+                },
+                {
+                  title: '📄 Buy Script',
+                  description:
+                    `Sell Script ${botName}`,
+
+                  id: '.sc'
+                }
+              ]
+            }
+          ]
+        })
+      }
+    })
+
+    .send(m.chat, {
+      quoted: m
+    })
+}
+
+handler.help = ['menu']
+handler.command = ['menu']
+handler.tags = ['main']
+
+export default handler
+
+function clockString(ms) {
+
+  const h = isNaN(ms)
+    ? '--'
+    : Math.floor(ms / 3600000)
+
+  const m = isNaN(ms)
+    ? '--'
+    : Math.floor(ms / 60000) % 60
+
+  const s = isNaN(ms)
+    ? '--'
+    : Math.floor(ms / 1000) % 60
+
+  return `${h} H ${m} M ${s} S`
+}

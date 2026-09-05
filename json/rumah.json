@@ -1,0 +1,977 @@
+[
+    {
+        "id": "RUM-001-ANG-2021",
+        "nama": "Rumah Tipe 21, 1 Kamar, 1 Garasi",
+        "lokasi": "Jl. Anggrek Mekar No 29",
+        "harga": 56000000,
+        "stock": 5,
+        "luasTanah": "50 m²",
+        "luasBangunan": "36 m²",
+        "tahunDibangun": 2021,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Rooftop",
+            "Panel Surya",
+            "Gym"
+        ],
+        "jenisSertifikat": "SHM",
+        "kondisi": "Baru",
+        "jumlahKamar": 1,
+        "kapasitasOrang": 2
+    },
+    {
+        "id": "RUM-002-MEL-2013",
+        "nama": "Rumah Tipe 36, 2 Kamar, 1 Garasi",
+        "lokasi": "Jl. Melati Indah No 23",
+        "harga": 100000000,
+        "stock": 5,
+        "luasTanah": "72 m²",
+        "luasBangunan": "36 m²",
+        "tahunDibangun": 2013,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Taman",
+            "Panel Surya",
+            "Kolam Renang",
+            "Rooftop"
+        ],
+        "jenisSertifikat": "HGB",
+        "kondisi": "Baru",
+        "jumlahKamar": 2,
+        "kapasitasOrang": 4
+    },
+    {
+        "id": "RUM-003-KEN-2021",
+        "nama": "Rumah Tipe 45, 2 Kamar, 1 Garasi",
+        "lokasi": "Jl. Kenanga Asri No 108",
+        "harga": 115000000,
+        "stock": 3,
+        "luasTanah": "90 m²",
+        "luasBangunan": "45 m²",
+        "tahunDibangun": 2021,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Taman Belakang",
+            "Carport",
+            "Taman",
+            "Gym"
+        ],
+        "jenisSertifikat": "Girik",
+        "kondisi": "Baru",
+        "jumlahKamar": 2,
+        "kapasitasOrang": 4
+    },
+    {
+        "id": "RUM-004-MAW-2011",
+        "nama": "Rumah Tipe 54, 3 Kamar, 1 Garasi",
+        "lokasi": "Jl. Mawar Merah No 72",
+        "harga": 130000000,
+        "stock": 1,
+        "luasTanah": "108 m²",
+        "luasBangunan": "54 m²",
+        "tahunDibangun": 2011,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Gudang",
+            "Dapur Modern"
+        ],
+        "jenisSertifikat": "Girik",
+        "kondisi": "Baru",
+        "jumlahKamar": 3,
+        "kapasitasOrang": 6
+    },
+    {
+        "id": "RUM-005-DAH-2017",
+        "nama": "Rumah Tipe 60, 3 Kamar, 1 Garasi",
+        "lokasi": "Jl. Dahlia Biru No 92",
+        "harga": 163000000,
+        "stock": 1,
+        "luasTanah": "120 m²",
+        "luasBangunan": "60 m²",
+        "tahunDibangun": 2017,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Gudang",
+            "Taman",
+            "Balkon"
+        ],
+        "jenisSertifikat": "Girik",
+        "kondisi": "Baru",
+        "jumlahKamar": 3,
+        "kapasitasOrang": 6
+    },
+    {
+        "id": "RUM-006-FLA-2011",
+        "nama": "Rumah Minimalis, 2 Kamar, 1 Garasi",
+        "lokasi": "Jl. Flamboyan No 142",
+        "harga": 130000000,
+        "stock": 3,
+        "luasTanah": "90 m²",
+        "luasBangunan": "70 m²",
+        "tahunDibangun": 2011,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Taman Belakang",
+            "Rooftop",
+            "Balkon"
+        ],
+        "jenisSertifikat": "HGB",
+        "kondisi": "Baru",
+        "jumlahKamar": 2,
+        "kapasitasOrang": 4
+    },
+    {
+        "id": "RUM-007-CEM-2016",
+        "nama": "Rumah Modern, 3 Kamar, 2 Garasi",
+        "lokasi": "Jl. Cempaka Putih No 21",
+        "harga": 237000000,
+        "stock": 3,
+        "luasTanah": "150 m²",
+        "luasBangunan": "120 m²",
+        "tahunDibangun": 2016,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Panel Surya",
+            "Kolam Renang"
+        ],
+        "jenisSertifikat": "Girik",
+        "kondisi": "Bekas",
+        "jumlahKamar": 3,
+        "kapasitasOrang": 6
+    },
+    {
+        "id": "RUM-008-BOU-2021",
+        "nama": "Rumah Klasik, 3 Kamar, 1 Garasi",
+        "lokasi": "Jl. Bougenville No 42",
+        "harga": 175000000,
+        "stock": 5,
+        "luasTanah": "130 m²",
+        "luasBangunan": "100 m²",
+        "tahunDibangun": 2021,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Rooftop",
+            "Ruang Serbaguna",
+            "Carport"
+        ],
+        "jenisSertifikat": "SHM",
+        "kondisi": "Baru",
+        "jumlahKamar": 3,
+        "kapasitasOrang": 6
+    },
+    {
+        "id": "RUM-009-KAM-2014",
+        "nama": "Rumah Kontemporer, 4 Kamar, 2 Garasi",
+        "lokasi": "Jl. Kamboja Raya No 44",
+        "harga": 253000000,
+        "stock": 1,
+        "luasTanah": "200 m²",
+        "luasBangunan": "160 m²",
+        "tahunDibangun": 2014,
+        "fasilitasTambahan": [
+            "Garasi",
+            "CCTV",
+            "Smart Home"
+        ],
+        "jenisSertifikat": "SHSRS",
+        "kondisi": "Baru",
+        "jumlahKamar": 4,
+        "kapasitasOrang": 8
+    },
+    {
+        "id": "RUM-010-TER-2013",
+        "nama": "Rumah 2 Lantai, 4 Kamar, 2 Garasi",
+        "lokasi": "Jl. Teratai Mas No 59",
+        "harga": 204000000,
+        "stock": 4,
+        "luasTanah": "180 m²",
+        "luasBangunan": "160 m²",
+        "tahunDibangun": 2013,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Smart Home",
+            "Carport",
+            "Kolam Renang"
+        ],
+        "jenisSertifikat": "HGB",
+        "kondisi": "Bekas",
+        "jumlahKamar": 4,
+        "kapasitasOrang": 8
+    },
+    {
+        "id": "RUM-011-SAK-2013",
+        "nama": "Rumah Mewah, 5 Kamar, 3 Garasi",
+        "lokasi": "Jl. Sakura Indah No 102",
+        "harga": 573000000,
+        "stock": 5,
+        "luasTanah": "350 m²",
+        "luasBangunan": "280 m²",
+        "tahunDibangun": 2013,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Carport",
+            "Gym"
+        ],
+        "jenisSertifikat": "Girik",
+        "kondisi": "Bekas",
+        "jumlahKamar": 5,
+        "kapasitasOrang": 10
+    },
+    {
+        "id": "RUM-012-LAV-2017",
+        "nama": "Villa, 4 Kamar, 2 Garasi",
+        "lokasi": "Jl. Lavender No 103",
+        "harga": 429000000,
+        "stock": 1,
+        "luasTanah": "300 m²",
+        "luasBangunan": "250 m²",
+        "tahunDibangun": 2017,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Gym",
+            "Pagar Otomatis"
+        ],
+        "jenisSertifikat": "SHM",
+        "kondisi": "Baru",
+        "jumlahKamar": 4,
+        "kapasitasOrang": 8
+    },
+    {
+        "id": "RUM-013-TUL-2016",
+        "nama": "Rumah Cluster, 3 Kamar, 2 Garasi",
+        "lokasi": "Jl. Tulip Permai No 40",
+        "harga": 237000000,
+        "stock": 4,
+        "luasTanah": "160 m²",
+        "luasBangunan": "130 m²",
+        "tahunDibangun": 2016,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Gudang",
+            "Ruang Serbaguna"
+        ],
+        "jenisSertifikat": "Girik",
+        "kondisi": "Baru",
+        "jumlahKamar": 3,
+        "kapasitasOrang": 6
+    },
+    {
+        "id": "RUM-014-MAT-2021",
+        "nama": "Townhouse, 3 Kamar, 2 Garasi",
+        "lokasi": "Jl. Matahari No 120",
+        "harga": 211000000,
+        "stock": 5,
+        "luasTanah": "140 m²",
+        "luasBangunan": "120 m²",
+        "tahunDibangun": 2021,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Pagar Otomatis",
+            "Taman",
+            "Ruang Serbaguna"
+        ],
+        "jenisSertifikat": "SHM",
+        "kondisi": "Baru",
+        "jumlahKamar": 3,
+        "kapasitasOrang": 6
+    },
+    {
+        "id": "RUM-015-WIS-2016",
+        "nama": "Rumah Hook, 3 Kamar, 2 Garasi",
+        "lokasi": "Jl. Wisteria No 69",
+        "harga": 251000000,
+        "stock": 1,
+        "luasTanah": "170 m²",
+        "luasBangunan": "140 m²",
+        "tahunDibangun": 2016,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Carport"
+        ],
+        "jenisSertifikat": "Girik",
+        "kondisi": "Baru",
+        "jumlahKamar": 3,
+        "kapasitasOrang": 6
+    },
+    {
+        "id": "RUM-016-MAG-2023",
+        "nama": "Rumah Tipe 21, 1 Kamar, 1 Garasi",
+        "lokasi": "Jl. Magnolia No 68",
+        "harga": 72000000,
+        "stock": 5,
+        "luasTanah": "50 m²",
+        "luasBangunan": "36 m²",
+        "tahunDibangun": 2023,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Pagar Otomatis",
+            "Kolam Renang"
+        ],
+        "jenisSertifikat": "SHSRS",
+        "kondisi": "Baru",
+        "jumlahKamar": 1,
+        "kapasitasOrang": 2
+    },
+    {
+        "id": "RUM-017-JAS-2022",
+        "nama": "Rumah Tipe 36, 2 Kamar, 1 Garasi",
+        "lokasi": "Jl. Jasmine Park No 51",
+        "harga": 85000000,
+        "stock": 5,
+        "luasTanah": "72 m²",
+        "luasBangunan": "36 m²",
+        "tahunDibangun": 2022,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Gudang",
+            "Gym",
+            "Pagar Otomatis"
+        ],
+        "jenisSertifikat": "SHM",
+        "kondisi": "Baru",
+        "jumlahKamar": 2,
+        "kapasitasOrang": 4
+    },
+    {
+        "id": "RUM-018-ORC-2024",
+        "nama": "Rumah Tipe 45, 2 Kamar, 1 Garasi",
+        "lokasi": "Jl. Orchid Boulevard No 83",
+        "harga": 133000000,
+        "stock": 3,
+        "luasTanah": "90 m²",
+        "luasBangunan": "45 m²",
+        "tahunDibangun": 2024,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Kolam Renang"
+        ],
+        "jenisSertifikat": "SHSRS",
+        "kondisi": "Baru",
+        "jumlahKamar": 2,
+        "kapasitasOrang": 4
+    },
+    {
+        "id": "RUM-019-LOT-2011",
+        "nama": "Rumah Tipe 54, 3 Kamar, 1 Garasi",
+        "lokasi": "Jl. Lotus Residence No 62",
+        "harga": 124000000,
+        "stock": 5,
+        "luasTanah": "108 m²",
+        "luasBangunan": "54 m²",
+        "tahunDibangun": 2011,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Taman Belakang",
+            "Kolam Renang"
+        ],
+        "jenisSertifikat": "SHM",
+        "kondisi": "Bekas",
+        "jumlahKamar": 3,
+        "kapasitasOrang": 6
+    },
+    {
+        "id": "RUM-020-PEO-2023",
+        "nama": "Rumah Tipe 60, 3 Kamar, 1 Garasi",
+        "lokasi": "Jl. Peony Hijau No 33",
+        "harga": 149000000,
+        "stock": 2,
+        "luasTanah": "120 m²",
+        "luasBangunan": "60 m²",
+        "tahunDibangun": 2023,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Pagar Otomatis",
+            "Gym",
+            "Carport",
+            "Panel Surya"
+        ],
+        "jenisSertifikat": "Girik",
+        "kondisi": "Baru",
+        "jumlahKamar": 3,
+        "kapasitasOrang": 6
+    },
+    {
+        "id": "RUM-021-CHR-2015",
+        "nama": "Rumah Minimalis, 2 Kamar, 1 Garasi",
+        "lokasi": "Jl. Chrysanthemum No 139",
+        "harga": 123000000,
+        "stock": 1,
+        "luasTanah": "90 m²",
+        "luasBangunan": "70 m²",
+        "tahunDibangun": 2015,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Smart Home",
+            "Ruang Serbaguna",
+            "Gudang"
+        ],
+        "jenisSertifikat": "Girik",
+        "kondisi": "Bekas",
+        "jumlahKamar": 2,
+        "kapasitasOrang": 4
+    },
+    {
+        "id": "RUM-022-AST-2010",
+        "nama": "Rumah Modern, 3 Kamar, 2 Garasi",
+        "lokasi": "Jl. Aster Baru No 64",
+        "harga": 195000000,
+        "stock": 1,
+        "luasTanah": "150 m²",
+        "luasBangunan": "120 m²",
+        "tahunDibangun": 2010,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Dapur Modern"
+        ],
+        "jenisSertifikat": "HGB",
+        "kondisi": "Baru",
+        "jumlahKamar": 3,
+        "kapasitasOrang": 6
+    },
+    {
+        "id": "RUM-023-CAR-2011",
+        "nama": "Rumah Klasik, 3 Kamar, 1 Garasi",
+        "lokasi": "Jl. Carnation No 19",
+        "harga": 198000000,
+        "stock": 1,
+        "luasTanah": "130 m²",
+        "luasBangunan": "100 m²",
+        "tahunDibangun": 2011,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Rooftop"
+        ],
+        "jenisSertifikat": "SHSRS",
+        "kondisi": "Baru",
+        "jumlahKamar": 3,
+        "kapasitasOrang": 6
+    },
+    {
+        "id": "RUM-024-IRI-2018",
+        "nama": "Rumah Kontemporer, 4 Kamar, 2 Garasi",
+        "lokasi": "Jl. Iris Biru No 132",
+        "harga": 252000000,
+        "stock": 2,
+        "luasTanah": "200 m²",
+        "luasBangunan": "160 m²",
+        "tahunDibangun": 2018,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Ruang Serbaguna",
+            "CCTV",
+            "Rooftop"
+        ],
+        "jenisSertifikat": "Girik",
+        "kondisi": "Baru",
+        "jumlahKamar": 4,
+        "kapasitasOrang": 8
+    },
+    {
+        "id": "RUM-025-LIL-2020",
+        "nama": "Rumah 2 Lantai, 4 Kamar, 2 Garasi",
+        "lokasi": "Jl. Lily Putih No 122",
+        "harga": 255000000,
+        "stock": 3,
+        "luasTanah": "180 m²",
+        "luasBangunan": "160 m²",
+        "tahunDibangun": 2020,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Kolam Renang",
+            "Panel Surya"
+        ],
+        "jenisSertifikat": "Girik",
+        "kondisi": "Baru",
+        "jumlahKamar": 4,
+        "kapasitasOrang": 8
+    },
+    {
+        "id": "RUM-026-VIO-2020",
+        "nama": "Rumah Mewah, 5 Kamar, 3 Garasi",
+        "lokasi": "Jl. Violet Asri No 109",
+        "harga": 560000000,
+        "stock": 1,
+        "luasTanah": "350 m²",
+        "luasBangunan": "280 m²",
+        "tahunDibangun": 2020,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Panel Surya",
+            "Balkon",
+            "Taman",
+            "Ruang Serbaguna"
+        ],
+        "jenisSertifikat": "SHM",
+        "kondisi": "Baru",
+        "jumlahKamar": 5,
+        "kapasitasOrang": 10
+    },
+    {
+        "id": "RUM-027-DAI-2013",
+        "nama": "Villa, 4 Kamar, 2 Garasi",
+        "lokasi": "Jl. Daisy Permai No 104",
+        "harga": 478000000,
+        "stock": 2,
+        "luasTanah": "300 m²",
+        "luasBangunan": "250 m²",
+        "tahunDibangun": 2013,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Gudang",
+            "Kolam Renang",
+            "Rooftop"
+        ],
+        "jenisSertifikat": "Girik",
+        "kondisi": "Baru",
+        "jumlahKamar": 4,
+        "kapasitasOrang": 8
+    },
+    {
+        "id": "RUM-028-POP-2017",
+        "nama": "Rumah Cluster, 3 Kamar, 2 Garasi",
+        "lokasi": "Jl. Poppy Mas No 109",
+        "harga": 207000000,
+        "stock": 5,
+        "luasTanah": "160 m²",
+        "luasBangunan": "130 m²",
+        "tahunDibangun": 2017,
+        "fasilitasTambahan": [
+            "Garasi",
+            "CCTV",
+            "Rooftop",
+            "Kolam Renang"
+        ],
+        "jenisSertifikat": "SHM",
+        "kondisi": "Baru",
+        "jumlahKamar": 3,
+        "kapasitasOrang": 6
+    },
+    {
+        "id": "RUM-029-SUN-2017",
+        "nama": "Townhouse, 3 Kamar, 2 Garasi",
+        "lokasi": "Jl. Sunflower Raya No 4",
+        "harga": 181000000,
+        "stock": 4,
+        "luasTanah": "140 m²",
+        "luasBangunan": "120 m²",
+        "tahunDibangun": 2017,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Gym",
+            "Smart Home"
+        ],
+        "jenisSertifikat": "HGB",
+        "kondisi": "Bekas",
+        "jumlahKamar": 3,
+        "kapasitasOrang": 6
+    },
+    {
+        "id": "RUM-030-BLU-2014",
+        "nama": "Rumah Hook, 3 Kamar, 2 Garasi",
+        "lokasi": "Jl. Bluebell Indah No 16",
+        "harga": 227000000,
+        "stock": 2,
+        "luasTanah": "170 m²",
+        "luasBangunan": "140 m²",
+        "tahunDibangun": 2014,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Taman",
+            "Smart Home",
+            "Carport",
+            "CCTV"
+        ],
+        "jenisSertifikat": "Girik",
+        "kondisi": "Bekas",
+        "jumlahKamar": 3,
+        "kapasitasOrang": 6
+    },
+    {
+        "id": "RUM-031-GAR-2021",
+        "nama": "Rumah Tipe 21, 1 Kamar, 1 Garasi",
+        "lokasi": "Jl. Gardenia No 49",
+        "harga": 65000000,
+        "stock": 3,
+        "luasTanah": "50 m²",
+        "luasBangunan": "36 m²",
+        "tahunDibangun": 2021,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Taman",
+            "Taman Belakang"
+        ],
+        "jenisSertifikat": "SHM",
+        "kondisi": "Baru",
+        "jumlahKamar": 1,
+        "kapasitasOrang": 2
+    },
+    {
+        "id": "RUM-032-AMA-2018",
+        "nama": "Rumah Tipe 36, 2 Kamar, 1 Garasi",
+        "lokasi": "Jl. Amaryllis No 15",
+        "harga": 82000000,
+        "stock": 1,
+        "luasTanah": "72 m²",
+        "luasBangunan": "36 m²",
+        "tahunDibangun": 2018,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Pagar Otomatis",
+            "Panel Surya",
+            "Gym",
+            "Taman"
+        ],
+        "jenisSertifikat": "HGB",
+        "kondisi": "Baru",
+        "jumlahKamar": 2,
+        "kapasitasOrang": 4
+    },
+    {
+        "id": "RUM-033-FRE-2019",
+        "nama": "Rumah Tipe 45, 2 Kamar, 1 Garasi",
+        "lokasi": "Jl. Freesia Baru No 18",
+        "harga": 116000000,
+        "stock": 4,
+        "luasTanah": "90 m²",
+        "luasBangunan": "45 m²",
+        "tahunDibangun": 2019,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Kolam Renang",
+            "Taman Belakang",
+            "Rooftop",
+            "Gudang"
+        ],
+        "jenisSertifikat": "SHM",
+        "kondisi": "Baru",
+        "jumlahKamar": 2,
+        "kapasitasOrang": 4
+    },
+    {
+        "id": "RUM-034-ZIN-2021",
+        "nama": "Rumah Tipe 54, 3 Kamar, 1 Garasi",
+        "lokasi": "Jl. Zinnia Permai No 150",
+        "harga": 158000000,
+        "stock": 2,
+        "luasTanah": "108 m²",
+        "luasBangunan": "54 m²",
+        "tahunDibangun": 2021,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Carport",
+            "Rooftop",
+            "Ruang Serbaguna"
+        ],
+        "jenisSertifikat": "SHSRS",
+        "kondisi": "Baru",
+        "jumlahKamar": 3,
+        "kapasitasOrang": 6
+    },
+    {
+        "id": "RUM-035-COS-2014",
+        "nama": "Rumah Tipe 60, 3 Kamar, 1 Garasi",
+        "lokasi": "Jl. Cosmos Hijau No 68",
+        "harga": 167000000,
+        "stock": 1,
+        "luasTanah": "120 m²",
+        "luasBangunan": "60 m²",
+        "tahunDibangun": 2014,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Ruang Serbaguna",
+            "Panel Surya"
+        ],
+        "jenisSertifikat": "SHSRS",
+        "kondisi": "Bekas",
+        "jumlahKamar": 3,
+        "kapasitasOrang": 6
+    },
+    {
+        "id": "RUM-036-PET-2018",
+        "nama": "Rumah Minimalis, 2 Kamar, 1 Garasi",
+        "lokasi": "Jl. Petunia No 3",
+        "harga": 141000000,
+        "stock": 2,
+        "luasTanah": "90 m²",
+        "luasBangunan": "70 m²",
+        "tahunDibangun": 2018,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Kolam Renang"
+        ],
+        "jenisSertifikat": "SHSRS",
+        "kondisi": "Baru",
+        "jumlahKamar": 2,
+        "kapasitasOrang": 4
+    },
+    {
+        "id": "RUM-037-BEG-2015",
+        "nama": "Rumah Modern, 3 Kamar, 2 Garasi",
+        "lokasi": "Jl. Begonia No 90",
+        "harga": 239000000,
+        "stock": 4,
+        "luasTanah": "150 m²",
+        "luasBangunan": "120 m²",
+        "tahunDibangun": 2015,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Rooftop"
+        ],
+        "jenisSertifikat": "HGB",
+        "kondisi": "Bekas",
+        "jumlahKamar": 3,
+        "kapasitasOrang": 6
+    },
+    {
+        "id": "RUM-038-CAM-2018",
+        "nama": "Rumah Klasik, 3 Kamar, 1 Garasi",
+        "lokasi": "Jl. Camellia No 140",
+        "harga": 197000000,
+        "stock": 1,
+        "luasTanah": "130 m²",
+        "luasBangunan": "100 m²",
+        "tahunDibangun": 2018,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Taman Belakang",
+            "Gudang",
+            "Ruang Serbaguna"
+        ],
+        "jenisSertifikat": "SHSRS",
+        "kondisi": "Baru",
+        "jumlahKamar": 3,
+        "kapasitasOrang": 6
+    },
+    {
+        "id": "RUM-039-AZA-2021",
+        "nama": "Rumah Kontemporer, 4 Kamar, 2 Garasi",
+        "lokasi": "Jl. Azalea Mas No 35",
+        "harga": 255000000,
+        "stock": 3,
+        "luasTanah": "200 m²",
+        "luasBangunan": "160 m²",
+        "tahunDibangun": 2021,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Kolam Renang"
+        ],
+        "jenisSertifikat": "HGB",
+        "kondisi": "Baru",
+        "jumlahKamar": 4,
+        "kapasitasOrang": 8
+    },
+    {
+        "id": "RUM-040-HIB-2023",
+        "nama": "Rumah 2 Lantai, 4 Kamar, 2 Garasi",
+        "lokasi": "Jl. Hibiscus No 73",
+        "harga": 228000000,
+        "stock": 5,
+        "luasTanah": "180 m²",
+        "luasBangunan": "160 m²",
+        "tahunDibangun": 2023,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Rooftop",
+            "Ruang Serbaguna",
+            "Gudang"
+        ],
+        "jenisSertifikat": "SHSRS",
+        "kondisi": "Baru",
+        "jumlahKamar": 4,
+        "kapasitasOrang": 8
+    },
+    {
+        "id": "RUM-041-BOU-2020",
+        "nama": "Rumah Mewah, 5 Kamar, 3 Garasi",
+        "lokasi": "Jl. Bougainvillea No 126",
+        "harga": 517000000,
+        "stock": 3,
+        "luasTanah": "350 m²",
+        "luasBangunan": "280 m²",
+        "tahunDibangun": 2020,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Kolam Renang"
+        ],
+        "jenisSertifikat": "Girik",
+        "kondisi": "Baru",
+        "jumlahKamar": 5,
+        "kapasitasOrang": 10
+    },
+    {
+        "id": "RUM-042-LAN-2014",
+        "nama": "Villa, 4 Kamar, 2 Garasi",
+        "lokasi": "Jl. Lantana No 12",
+        "harga": 380000000,
+        "stock": 5,
+        "luasTanah": "300 m²",
+        "luasBangunan": "250 m²",
+        "tahunDibangun": 2014,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Gudang",
+            "Gym",
+            "Ruang Serbaguna"
+        ],
+        "jenisSertifikat": "Girik",
+        "kondisi": "Baru",
+        "jumlahKamar": 4,
+        "kapasitasOrang": 8
+    },
+    {
+        "id": "RUM-043-VER-2011",
+        "nama": "Rumah Cluster, 3 Kamar, 2 Garasi",
+        "lokasi": "Jl. Verbena Asri No 110",
+        "harga": 233000000,
+        "stock": 3,
+        "luasTanah": "160 m²",
+        "luasBangunan": "130 m²",
+        "tahunDibangun": 2011,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Kolam Renang"
+        ],
+        "jenisSertifikat": "SHM",
+        "kondisi": "Baru",
+        "jumlahKamar": 3,
+        "kapasitasOrang": 6
+    },
+    {
+        "id": "RUM-044-SAL-2010",
+        "nama": "Townhouse, 3 Kamar, 2 Garasi",
+        "lokasi": "Jl. Salvia No 150",
+        "harga": 212000000,
+        "stock": 1,
+        "luasTanah": "140 m²",
+        "luasBangunan": "120 m²",
+        "tahunDibangun": 2010,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Smart Home",
+            "Gym"
+        ],
+        "jenisSertifikat": "SHSRS",
+        "kondisi": "Bekas",
+        "jumlahKamar": 3,
+        "kapasitasOrang": 6
+    },
+    {
+        "id": "RUM-045-LAV-2015",
+        "nama": "Rumah Hook, 3 Kamar, 2 Garasi",
+        "lokasi": "Jl. Lavender Hills No 92",
+        "harga": 233000000,
+        "stock": 2,
+        "luasTanah": "170 m²",
+        "luasBangunan": "140 m²",
+        "tahunDibangun": 2015,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Ruang Serbaguna",
+            "Kolam Renang"
+        ],
+        "jenisSertifikat": "HGB",
+        "kondisi": "Bekas",
+        "jumlahKamar": 3,
+        "kapasitasOrang": 6
+    },
+    {
+        "id": "RUM-046-ROS-2022",
+        "nama": "Rumah Tipe 21, 1 Kamar, 1 Garasi",
+        "lokasi": "Jl. Rosemary Lane No 42",
+        "harga": 61000000,
+        "stock": 2,
+        "luasTanah": "50 m²",
+        "luasBangunan": "36 m²",
+        "tahunDibangun": 2022,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Taman",
+            "Gym",
+            "Balkon",
+            "Dapur Modern"
+        ],
+        "jenisSertifikat": "Girik",
+        "kondisi": "Baru",
+        "jumlahKamar": 1,
+        "kapasitasOrang": 2
+    },
+    {
+        "id": "RUM-047-THY-2023",
+        "nama": "Rumah Tipe 36, 2 Kamar, 1 Garasi",
+        "lokasi": "Jl. Thyme Court No 69",
+        "harga": 85000000,
+        "stock": 4,
+        "luasTanah": "72 m²",
+        "luasBangunan": "36 m²",
+        "tahunDibangun": 2023,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Smart Home"
+        ],
+        "jenisSertifikat": "SHM",
+        "kondisi": "Baru",
+        "jumlahKamar": 2,
+        "kapasitasOrang": 4
+    },
+    {
+        "id": "RUM-048-SAG-2010",
+        "nama": "Rumah Tipe 45, 2 Kamar, 1 Garasi",
+        "lokasi": "Jl. Sage Boulevard No 57",
+        "harga": 113000000,
+        "stock": 3,
+        "luasTanah": "90 m²",
+        "luasBangunan": "45 m²",
+        "tahunDibangun": 2010,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Dapur Modern",
+            "Carport",
+            "Rooftop",
+            "Balkon"
+        ],
+        "jenisSertifikat": "Girik",
+        "kondisi": "Baru",
+        "jumlahKamar": 2,
+        "kapasitasOrang": 4
+    },
+    {
+        "id": "RUM-049-BAS-2016",
+        "nama": "Rumah Tipe 54, 3 Kamar, 1 Garasi",
+        "lokasi": "Jl. Basil Residence No 72",
+        "harga": 125000000,
+        "stock": 1,
+        "luasTanah": "108 m²",
+        "luasBangunan": "54 m²",
+        "tahunDibangun": 2016,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Dapur Modern",
+            "Ruang Serbaguna",
+            "Pagar Otomatis"
+        ],
+        "jenisSertifikat": "SHM",
+        "kondisi": "Bekas",
+        "jumlahKamar": 3,
+        "kapasitasOrang": 6
+    },
+    {
+        "id": "RUM-050-MIN-2016",
+        "nama": "Rumah Tipe 60, 3 Kamar, 1 Garasi",
+        "lokasi": "Jl. Mint Garden No 67",
+        "harga": 152000000,
+        "stock": 4,
+        "luasTanah": "120 m²",
+        "luasBangunan": "60 m²",
+        "tahunDibangun": 2016,
+        "fasilitasTambahan": [
+            "Garasi",
+            "Taman",
+            "Kolam Renang",
+            "Taman Belakang"
+        ],
+        "jenisSertifikat": "SHSRS",
+        "kondisi": "Bekas",
+        "jumlahKamar": 3,
+        "kapasitasOrang": 6
+    }
+]

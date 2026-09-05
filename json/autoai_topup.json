@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "private": true,
+  "group": true,
+  "cooldownMs": 8000
+}

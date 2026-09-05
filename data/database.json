@@ -1,0 +1,20 @@
+{
+  "users": {},
+  "chats": {},
+  "settings": {
+    "6281363249553@s.whatsapp.net": {
+      "prefix": "",
+      "public": true,
+      "autoread": true,
+      "anticall": true,
+      "gconly": false
+    }
+  },
+  "stats": {},
+  "sticker": {},
+  "menfess": {},
+  "sewa": {},
+  "jadibotNumbers": {},
+  "jadibotOrders": {},
+  "jadibotAccess": {}
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "code": "ZELLDSKN5K",
+    "value": 50,
+    "type": "percent",
+    "limit": 7,
+    "used": 1,
+    "expiredAt": null,
+    "active": false,
+    "createdAt": "2026-05-30T17:32:27.888Z"
+  },
+  {
+    "code": "ZEL10PRSN",
+    "value": 10,
+    "type": "percent",
+    "limit": 5,
+    "used": 0,
+    "expiredAt": null,
+    "active": true,
+    "createdAt": "2026-05-30T17:39:48.473Z"
+  }
+]
