@@ -35,19 +35,28 @@ The project uses a plugin-first architecture with dynamic discovery, hot reload,
 
 ---
 
-## 🌸 Kawaii Anime Gallery
+## 🕶️ Cyber Anime Hacker Gallery
 
 <div align="center">
 
-<img src="https://media1.tenor.com/images/f821cf181eb277c84d461183d713be64/tenor.gif?itemid=8731036" width="210" alt="Kawaii anime girl GIF" />
-&nbsp;&nbsp;
-<img src="https://media1.tenor.com/images/b9bac6f190cabf3574165538e277c33d/tenor.gif?itemid=12005681" width="210" alt="Dancing anime girl GIF" />
-&nbsp;&nbsp;
-<img src="https://media.tenor.com/zf41nXpMrjAAAAAe/anime-talk.png" width="210" alt="Pink-haired kawaii anime girl" />
+<!-- Main 16:9 hacker GIF -->
+<a href="https://tenor.com/view/akudama-drive-anime-cyberpunk-hacker-intro-gif-19161157">
+<img src="https://media1.tenor.com/m/JPX5iWzkrfQAAAAd/akudama-drive-anime.gif" width="94%" alt="Anime cyberpunk hacker GIF" />
+</a>
 
 <br><br>
 
-`♡ kawaii` · `♡ anime` · `♡ coding` · `♡ coffee`
+<a href="https://tenor.com/view/cyberpunk-anime-gif-26652086">
+<img src="https://media1.tenor.com/m/KTESg0AKoCsAAAAd/cyberpunk-anime.gif" width="45.5%" alt="Cyberpunk anime GIF" />
+</a>
+&nbsp;
+<a href="https://tenor.com/view/cyberpunk-cyberpunk-anime-lucy-cyberpunk-edgerunners-red-eyes-gif-26728449">
+<img src="https://media1.tenor.com/m/WHsik1NuWbkAAAAd/cyberpunk-cyberpunk-anime.gif" width="45.5%" alt="Cyberpunk hacker anime GIF" />
+</a>
+
+<br><br>
+
+`[ SYSTEM ONLINE ]` · `NEON GRID` · `HACKER MODE` · `PLUGIN CORE`
 
 </div>
 
@@ -342,20 +351,19 @@ The `sessions/` directory contains authentication state and should be handled ca
 
 ---
 
-## 🎀 Anime Showcase
+## 🧬 Hacker Mode
 
 <div align="center">
 
-<img src="https://media.tenor.com/zf41nXpMrjAAAAAe/anime-talk.png" width="150" alt="Pink-haired anime girl" />
-
-**かわいいコード、ちゃんと動く。**
-
-<img src="https://media1.tenor.com/images/b9bac6f190cabf3574165538e277c33d/tenor.gif?itemid=12005681" width="170" alt="Anime dance GIF" />
-<img src="https://media1.tenor.com/images/f821cf181eb277c84d461183d713be64/tenor.gif?itemid=8731036" width="170" alt="Kawaii anime GIF" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:050816,45:4C1D95,100:EC4899&height=95&text=HACKER%20MODE%20%2F%2F%20ONLINE&fontSize=28&fontColor=ffffff&animation=fadeIn" width="92%" />
 
 <br><br>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:EC4899,50:8B5CF6,100:06B6D4&height=90&text=PLUGIN%20SYSTEM&fontSize=28&fontColor=ffffff&animation=fadeIn" width="88%" />
+<img src="https://media1.tenor.com/m/JPX5iWzkrfQAAAAd/akudama-drive-anime.gif" width="92%" alt="Anime hacker terminal GIF" />
+
+<br><br>
+
+`root@ambatukam:~$` `node main.js` `--plugin-core` `--neon`
 
 </div>
 
