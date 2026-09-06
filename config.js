@@ -16,7 +16,7 @@ import { fileURLToPath } from 'url';
  * Isi data pribadi dan kredensial hanya pada salinan lokal.
  * Jangan commit nilai aslinya ke repositori publik.
  */
-global.pairingNumber = '6281363249553';
+global.pairingNumber = '6281221523195';
 
 global.namebot = 'Ambatukam Multi-Device';
 global.namabot = global.namebot;
